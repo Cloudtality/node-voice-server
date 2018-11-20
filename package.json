@@ -1,0 +1,27 @@
+{
+  "name": "node-voice-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "src/"
+  ],
+  "scripts": {
+    "start-server": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloudtality/node-voice-server.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Cloudtality/node-voice-server/issues"
+  },
+  "homepage": "https://github.com/Cloudtality/node-voice-server#readme",
+  "dependencies": {
+    "mediasoup": "^2.4.3",
+    "socket.io": "^2.1.1"
+  }
+}
